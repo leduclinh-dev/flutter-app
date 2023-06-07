@@ -1,4 +1,4 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class BarItemPage extends StatelessWidget {
   const BarItemPage({super.key});
@@ -7,8 +7,13 @@ class BarItemPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: const Center(
-        child: Text("Bar item page"),
-      ),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+
+          ],
+        )
+      )
     );
   }
 }
