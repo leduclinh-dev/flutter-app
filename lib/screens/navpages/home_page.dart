@@ -36,7 +36,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
           ),
         ),
         const SizedBox(
-          height: 40,
+          height: 30,
         ),
         Container(
           margin: const EdgeInsets.only(left: 20),
@@ -51,6 +51,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
         Align(
             alignment: Alignment.centerLeft,
             child: TabBar(
+              dividerColor: Colors.transparent,
               labelPadding: const EdgeInsets.only(left: 20, right: 20),
               controller: tabController,
               labelColor: Colors.black,

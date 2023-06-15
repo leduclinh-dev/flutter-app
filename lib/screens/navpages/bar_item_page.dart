@@ -5,15 +5,17 @@ class BarItemPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Center(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-
-          ],
-        )
-      )
+    return const Center(
+      child: Row(
+        children: <Widget>[
+          Column(
+            children: [
+              Icon(Icons.person),
+              Text('User')
+            ],
+          )
+        ],
+      ),
     );
   }
 }
